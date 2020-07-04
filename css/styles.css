@@ -2,6 +2,11 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
+@import "nav-bar.css";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -9,4 +14,9 @@ body {
   padding: 10px 20px;
   color: #020202;
   background-color: white;
+  height: 1000px;
+}
+
+a {
+  color: inherit;
 }
