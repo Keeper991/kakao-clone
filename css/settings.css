@@ -13,6 +13,13 @@
   font-weight: 300;
 }
 
+.setting .setting__sub {
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+}
+
 .settings .settings__setting {
   margin-bottom: 30px;
+  position: relative;
 }
