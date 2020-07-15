@@ -1,0 +1,8 @@
+.chats__chat {
+  padding: 10px 0;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.chats__chat:nth-child(2) {
+  border-bottom: none;
+}
