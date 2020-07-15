@@ -68,3 +68,21 @@
   padding: 10px 15px;
   border-radius: 5px;
 }
+
+.friend .friend__badge {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  border-radius: 50%;
+  background-color: #dc5d46;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+.friend .friend__column:nth-child(2) {
+  flex-direction: column;
+  height: 60px;
+}
